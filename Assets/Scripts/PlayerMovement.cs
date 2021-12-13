@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed=1.0f;
-    public float rotSpeed=1.0f;
+    //Code based on code provided from the official unity documentation
+    //https://docs.unity3d.com/ScriptReference/CharacterController.SimpleMove.html
+
+    public float speed;
+    public float rotSpeed;
     public Joystick joystick;
     // Start is called before the first frame update
     void Start()
